@@ -1,5 +1,6 @@
 中文说明~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # excelXPojo
+idea+maven
 此工具类基于POI的excel文件和pojo相互转换，并且已经对Date类型做了格式化处理，支持Date类型的转换
 
 使用方法：直接调用工具类方法，传入参数，具体参数见test中所展示的示例。
@@ -19,6 +20,7 @@
   如果那个朋友可以给我提供一下解决以上问题的方式，非常感谢。
  english~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
  # excelXPojo
+ idea+maven
 This tool class is based on the POI excel file and pojo, and has been formatted for the Date type to support the conversion of the Date type.
 
 Usage: Directly call the tool class method, pass in the parameters, the specific parameters see the example shown in test.

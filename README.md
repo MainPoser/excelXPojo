@@ -16,7 +16,7 @@
   2、不能封装属性List<T>类型
   3、不能封装属性Map<Object,Object>类型
   4、关于属性名表格中列名的对应关系没有处理，只能手写对应。暂时没有开发出注解方式来生成对应关系的LinkedHashMap。
-   以上暂时总结的问题，希望有个朋友给我提供一下解决方式，谢谢。
+  如果那个朋友可以给我提供一下解决以上问题的方式，非常感谢。
  english~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
  # excelXPojo
 This tool class is based on the POI excel file and pojo, and has been formatted for the Date type to support the conversion of the Date type.
@@ -35,4 +35,4 @@ currently existing problems:
    2, can not encapsulate the attribute List<T> type
    3, can not encapsulate the attribute Map<Object,Object> type
    4. The correspondence between the column names in the attribute name table is not processed, and only the handwriting correspondence is required. Currently, there is no annotation method to develop a LinkedHashMap that generates a correspondence.
-   I have a friend who will give me some solutions, thank you.
+If that friend can give me a way to solve the above problems, thank you very much.

@@ -471,7 +471,10 @@ public class ExcelUtil {
                 //获取此行指定列的值,即为属性对应的值（map中的value存的就是这个属性在那个列），获取的值可能是空
                 String property = null;
                 try {
-                    property = row.getCell(entry.getValue()).getStringCellValue();
+                    //处理数字格式问题，输入0，POI会当成double来处理成0.0，
+                    Cell cell = row.getCell(entry.getValue());
+                    cell.setCellType(Cell.CELL_TYPE_STRING);
+                    property = cell.getStringCellValue();
                     if ("".equals(property)) {
                         property = null;
                     }
